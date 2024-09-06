@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🚀 01: Create a Basic React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 Objective
 
-## Available Scripts
+Create a basic React component that displays a fixed message: "Hello, World!".
 
-In the project directory, you can run:
+## 📂 Example Code
 
-### `npm start`
+### Creating the Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Let's start by creating a React component that will display our message.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+import React from 'react';
 
-### `npm test`
+// Example component using function syntax
+const FirstComponent = () => {
+  return (
+    <>
+      <h1>Hello, World!</h1>
+    </>
+  );
+};
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+export default FirstComponent;
+```
 
-### `npm run build`
+### Integrating the Component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Next, you need to use this component in your main application. Open the `App.js` file and import your new component.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+import React from 'react';
+import FirstComponent from './components/FirstComponent';
 
-### `npm run eject`
+function App() {
+  return (
+    <div className="App">
+      <FirstComponent />
+    </div>
+  );
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+export default App;
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔍 How It Works
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Creating the Component**: We define a functional component `FirstComponent` that returns a JSX element with an `<h1>` tag displaying "Hello, World!".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Using the Component**: We import `FirstComponent` into `App.js` and include it inside the `App` component's return statement.
 
-## Learn More
+## 🚀 Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To see your component in action, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Open a Terminal**: Navigate to your project directory.
 
-### Code Splitting
+2. **Install Dependencies**: If you haven’t already, install the project dependencies by running:
+   ```
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Start the Development Server**: Run the following command to start your React application:
+   ```
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+4. **View the Application**: Open your web browser and go to `http://localhost:3000`. You should see "Hello, World!" displayed on the page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🎉
