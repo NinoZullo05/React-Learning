@@ -12,7 +12,7 @@ Welcome to the **ReactJS Interactive Exercises** repository! This collection is 
 Here are the links to the 25 exercises, organized by difficulty:
 
 ### **Level 1: React Basics**
-1. [Create a Basic Component](#1-create-a-basic-component)
+1. [Create a Basic Component](https://github.com/NinoZullo05/React-Learning/tree/main/01-create-a-basic-component)
 2. [Using Props for Customization](#2-using-props-for-customization)
 3. [Managing State with useState](#3-managing-state-with-usestate)
 4. [Conditional Rendering](#4-conditional-rendering)
