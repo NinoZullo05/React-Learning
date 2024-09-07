@@ -32,6 +32,7 @@ Now, use this component in your main application, passing the name prop:
 ```jsx
 import "./App.css";
 import PropsExample from "./components/PropsExample";
+
 function App() {
   return (
     <div className="App">

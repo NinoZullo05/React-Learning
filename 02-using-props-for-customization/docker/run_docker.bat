@@ -5,7 +5,7 @@ REM Build the Docker image
 docker build -t my-react-app .
 
 REM Run the Docker container
-docker run -d -p 3000:3000 --name react-app-container create-a-basic-component
+docker run -d -p 3000:3000 --name react-app-container my-react-app
 
 REM Check if the container is running
 docker ps
