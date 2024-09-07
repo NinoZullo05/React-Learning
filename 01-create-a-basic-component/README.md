@@ -10,7 +10,7 @@ Create a basic React component that displays a fixed message: "Hello, World!".
 
 Let's start by creating a React component that will display our message.
 
-```
+```jsx
 import React from 'react';
 
 // Example component using function syntax
@@ -29,8 +29,7 @@ export default FirstComponent;
 
 Next, you need to use this component in your main application. Open the `App.js` file and import your new component.
 
-```
-
+```jsx
 import React from 'react';
 import FirstComponent from './components/FirstComponent';
 
