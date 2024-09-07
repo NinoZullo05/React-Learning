@@ -11,10 +11,10 @@ Learn how to pass **props** to a React component to make it more dynamic. You wi
 Let’s modify our previous component to accept props:
 
 ```jsx
-import React from 'react';
+import React from "react";
 
 // Component that accepts props
-const GreetingComponent = (props) => {
+const PropsExample = (props) => {
   return (
     <>
       <h1>Hello, {props.name}!</h1>
@@ -22,7 +22,7 @@ const GreetingComponent = (props) => {
   );
 };
 
-export default GreetingComponent;
+export default PropsExample;
 ```
 
 ### Integrating the Component
@@ -30,13 +30,12 @@ export default GreetingComponent;
 Now, use this component in your main application, passing the name prop:
 
 ```jsx
-import React from 'react';
-import GreetingComponent from './components/GreetingComponent';
-
+import "./App.css";
+import PropsExample from "./components/PropsExample";
 function App() {
   return (
     <div className="App">
-      <GreetingComponent name="John" />
+      <PropsExample name="John"></PropsExample>
     </div>
   );
 }
@@ -51,11 +50,11 @@ export default App;
 
 ## 🚀 Running the Application
 
-1. **Install Dependencies** (if not done yet):  
+1. **Install Dependencies** (if not done yet):
    ```bash
    npm install
    ```
-2. **Start the Development Server**:  
+2. **Start the Development Server**:
    ```bash
    npm start
    ```
