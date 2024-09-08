@@ -14,7 +14,7 @@ Here are the links to the 25 exercises, organized by difficulty:
 ### **Level 1: React Basics**
 1. [Create a Basic Component](https://github.com/NinoZullo05/React-Learning/tree/main/01-create-a-basic-component)
 2. [Using Props for Customization](https://github.com/NinoZullo05/React-Learning/tree/main/02-using-props-for-customization)
-3. [Managing State with useState](#3-managing-state-with-usestate)
+3. [Managing State with useState](https://github.com/NinoZullo05/React-Learning/tree/main/03-managing-state)
 4. [Conditional Rendering](#4-conditional-rendering)
 5. [Rendering Lists](#5-rendering-lists)
 6. [Controlled Component (Text Input)](#6-controlled-component-text-input)
