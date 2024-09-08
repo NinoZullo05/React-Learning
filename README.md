@@ -46,8 +46,8 @@ Here are the links to the 25 exercises, organized by difficulty:
 
 ### 1. **Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/reactjs-exercises.git
-cd reactjs-exercises
+git clone https://github.com/NinoZullo05/React-Learning.git
+cd react-learning-main
 ```
 
 ### 2. **Install Dependencies**  
@@ -78,6 +78,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Happy coding! 🎉
-
----
+## Happy coding! 🎉
