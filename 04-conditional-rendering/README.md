@@ -9,13 +9,12 @@ This exercise demonstrates a simple React component that conditionally displays 
 Create a file named `ConditionalRender.js` in the `src/components` directory with the following code:
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ConditionalRender = () => {
   // Initialize state to track if the user is logged in
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Toggle the login state
   const toggleLogin = () => {
     setIsLoggedIn(!isLoggedIn);
   };
@@ -23,12 +22,9 @@ const ConditionalRender = () => {
   return (
     <div>
       {/* Conditional rendering using a ternary operator */}
-      <h1>{isLoggedIn ? 'Welcome' : 'Goodbye'}</h1>
+      <h1>{isLoggedIn ? "Welcome" : "Goodbye"}</h1>
 
-      {/* Button to toggle login state */}
-      <button onClick={toggleLogin}>
-        {isLoggedIn ? 'Logout' : 'Login'}
-      </button>
+      <button onClick={toggleLogin}>{isLoggedIn ? "Logout" : "Login"}</button>
     </div>
   );
 };
@@ -41,8 +37,8 @@ export default ConditionalRender;
 In the `src/App.js` file, import the `ConditionalRender` component and render it within the desired JSX:
 
 ```jsx
-import React from 'react';
-import ConditionalRender from './components/ConditionalRender';
+import React from "react";
+import ConditionalRender from "./components/ConditionalRender";
 
 function App() {
   return (
