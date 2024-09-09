@@ -19,9 +19,9 @@ Here are the links to the 25 exercises, organized by difficulty:
 3. [Managing State with useState](https://github.com/NinoZullo05/React-Learning/tree/main/03-managing-state)
 4. [Conditional Rendering](https://github.com/NinoZullo05/React-Learning/tree/main/04-conditional-rendering)
 5. [Rendering Lists](https://github.com/NinoZullo05/React-Learning/tree/main/05-rendering-lists)
-6. [Controlled Component (Text Input)](https://github.com/NinoZullo05/React-Learning/tree/main/06-controlled-component)
-7. [Handling Click Events](#7-handling-click-events)
-8. [Nested Components](#8-nested-components)
+6. [Controlled Component (Text Input)](https://github.com/NinoZullo05/React-Learning/tree/main/06-controlled-components)
+7. [Handling Click Events](https://github.com/NinoZullo05/React-Learning/tree/main/07-handling-click-events)
+8. [Nested Components](https://github.com/NinoZullo05/React-Learning/tree/main/08-nested-components)
 9. [Passing Functions as Props](#9-passing-functions-as-props)
 10. [Theme Switcher Component](#10-theme-switcher-component)
 
