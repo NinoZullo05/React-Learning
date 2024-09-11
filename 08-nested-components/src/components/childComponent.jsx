@@ -1,4 +1,4 @@
-const childComponent = () => {
+const ChildComponent = () => {
   return (
     <>
       <h2>This is the childComponent!</h2>
@@ -6,4 +6,4 @@ const childComponent = () => {
   );
 };
 
-export default childComponent;
+export default ChildComponent;
