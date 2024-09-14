@@ -19,7 +19,6 @@ npm install redux react-redux
 #### Define the Initial State and Reducer
 
 ```jsx
-// store/reducer.js
 const initialState = {
   counter: 0,
 };
@@ -41,7 +40,6 @@ export default counterReducer;
 #### Create the Redux Store
 
 ```jsx
-// store/index.js
 import { createStore } from "redux";
 import counterReducer from "./reducer";
 
@@ -55,7 +53,7 @@ export default store;
 #### Set Up the Redux Provider
 
 ```jsx
-// App.js
+
 import React from "react";
 import { Provider } from "react-redux";
 import store from "./store";
@@ -79,7 +77,6 @@ export default App;
 #### Dispatch Actions and Access State
 
 ```jsx
-// components/Counter.js
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
