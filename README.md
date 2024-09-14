@@ -22,29 +22,29 @@ Here are the links to the 25 exercises, organized by difficulty:
 6. [Controlled Component (Text Input)](https://github.com/NinoZullo05/React-Learning/tree/main/06-controlled-components)
 7. [Handling Click Events](https://github.com/NinoZullo05/React-Learning/tree/main/07-handling-click-events)
 8. [Nested Components](https://github.com/NinoZullo05/React-Learning/tree/main/08-nested-components)
-9. [Passing Functions as Props](#9-passing-functions-as-props)
-10. [Theme Switcher Component](#10-theme-switcher-component)
+9. [Passing Functions as Props](https://github.com/NinoZullo05/React-Learning/tree/main/09-function-as-props)
+10. [Theme Switcher Component](https://github.com/NinoZullo05/React-Learning/tree/main/10-theme-switcher)
 
 ### **Level 2: Intermediate**
 
-11. [Side Effects with useEffect](#11-side-effects-with-useeffect)
-12. [Handling Loading State](#12-handling-loading-state)
-13. [Reusable Button Component](#13-reusable-button-component)
-14. [Validating Props with PropTypes](#14-validating-props-with-proptypes)
-15. [Updating State from Child Components](#15-updating-state-from-child-components)
-16. [Uncontrolled Component (Text Input)](#16-uncontrolled-component-text-input)
-17. [Handling Multiple Inputs in a Form](#17-handling-multiple-inputs-in-a-form)
-18. [Updating the DOM with useEffect](#18-updating-the-dom-with-useeffect)
-19. [Persisting Data with localStorage](#19-persisting-data-with-localstorage)
-20. [Dynamic Form Fields](#20-dynamic-form-fields)
+11. [Side Effects with useEffect](https://github.com/NinoZullo05/React-Learning/tree/main/11-side-effect)
+12. [Handling Loading State](https://github.com/NinoZullo05/React-Learning/tree/main/12-handling-loading-state)
+13. [Reusable Button Component](https://github.com/NinoZullo05/React-Learning/tree/main/13-reusable-button-component)
+14. [Validating Props with PropTypes](https://github.com/NinoZullo05/React-Learning/tree/main/14-validating-props-with-propstype)
+15. [Updating State from Child Components](https://github.com/NinoZullo05/React-Learning/tree/main/15-update-state-from-child)
+16. [Uncontrolled Component (Text Input)](https://github.com/NinoZullo05/React-Learning/tree/main/16-uncontrolled-component)
+17. [Handling Multiple Inputs in a Form](https://github.com/NinoZullo05/React-Learning/tree/main/17-handling-multiple-inputs)
+18. [Updating the DOM with useEffect](https://github.com/NinoZullo05/React-Learning/tree/main/18-update-dom-with-useeffect)
+19. [Persisting Data with localStorage](https://github.com/NinoZullo05/React-Learning/tree/main/19-persistent-data-with-localstorage)
+20. [Dynamic Form Fields](https://github.com/NinoZullo05/React-Learning/tree/main/20-dynamic-form-field)
 
 ### **Level 3: Advanced**
 
-21. [Using Context API](#21-using-context-api)
-22. [Managing State with Redux](#22-managing-state-with-redux)
-23. [Creating Custom Hooks](#23-creating-custom-hooks)
-24. [Optimizing with React.memo](#24-optimizing-with-react-memo)
-25. [Routing with React Router](#25-routing-with-react-router)
+21. [Using Context API](https://github.com/NinoZullo05/React-Learning/tree/main/21-using-context-api)
+22. [Managing State with Redux](https://github.com/NinoZullo05/React-Learning/tree/main/22-managing-state-with-redux)
+23. [Creating Custom Hooks](https://github.com/NinoZullo05/React-Learning/tree/main/23-creating-custom-hooks)
+24. [Optimizing with React.memo](https://github.com/NinoZullo05/React-Learning/tree/main/24-optimizing-with-memo)
+25. [Routing with React Router](https://github.com/NinoZullo05/React-Learning/tree/main/25-routing-with-react-router)
 
 ## 🚀 Getting Started
 
