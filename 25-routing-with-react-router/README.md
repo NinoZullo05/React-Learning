@@ -21,7 +21,6 @@ npm install react-router-dom
 Create a few basic components that will represent different pages of the application.
 
 ```jsx
-// components/Home.js
 import React from "react";
 
 const Home = () => {
@@ -32,7 +31,6 @@ export default Home;
 ```
 
 ```jsx
-// components/About.js
 import React from "react";
 
 const About = () => {
@@ -43,7 +41,6 @@ export default About;
 ```
 
 ```jsx
-// components/Contact.js
 import React from "react";
 
 const Contact = () => {
@@ -58,7 +55,6 @@ export default Contact;
 Now, configure the routing in `App.js` using `BrowserRouter`, `Routes`, and `Route` from `react-router-dom`.
 
 ```jsx
-// App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
@@ -100,7 +96,6 @@ export default App;
 You can handle undefined routes by adding a "404 Not Found" page.
 
 ```jsx
-// components/NotFound.js
 import React from "react";
 
 const NotFound = () => {
