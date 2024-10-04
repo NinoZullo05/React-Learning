@@ -81,10 +81,6 @@ If you want to add more exercises or improve existing ones, feel free to fork th
 4. Push to the branch: `git push origin feature/new-exercise`
 5. Open a pull request
 
-## 🌐 License
-
-This project is licensed under the MIT License.
-
 ---
 
 ## Happy coding! 🎉
