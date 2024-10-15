@@ -17,15 +17,15 @@ A modern, responsive currency converter built with **React** and styled with **T
 
 ### 🖥️ Desktop View
 
-![Desktop View](assets/desktop.png)
+![Desktop View](https://github.com/NinoZullo05/React-Learning/blob/main/currency-converter/src/assets/desktop.png)
 
 ### 📊 Tablet View
 
-![Tablet View](assets/tablet.png)
+![Tablet View](https://github.com/NinoZullo05/React-Learning/blob/main/currency-converter/src/assets/tablet.png)
 
 ### 📱 Mobile View
 
-![Mobile View](assets/mobile.png)
+![Mobile View](https://github.com/NinoZullo05/React-Learning/blob/main/currency-converter/src/assets/mobile.png)
 
 ## 🛠️ Technologies Used
 
